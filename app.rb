@@ -1,4 +1,6 @@
 
-print '>> '
-cmd = gets
-puts "You typed: #{cmd}"
+loop do
+  print '>> '
+  cmd = gets
+  puts "You typed: #{cmd}"
+end
