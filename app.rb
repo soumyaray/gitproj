@@ -1,6 +1,6 @@
 
 loop do
   print '>> '
-  cmd = gets
+  cmd = gets.chomp
   puts "You typed: #{cmd}"
 end
